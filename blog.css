@@ -1,0 +1,33 @@
+.nav-link {
+	color: white;
+	font-size: 35px;
+}
+.nav-link:hover {
+  color: red;
+}
+.nav-link:active{
+	color: red;
+} 
+.nav-link:focus {
+  text-decoration: underline;
+}
+.nav {
+	--bs-nav-link-color: #ff5733;
+    --bs-nav-link-hover-color: #ff5733;
+}
+.card {
+	--bs-card-bg: black;
+	color: white;
+}
+.btn-primary {
+	--bs-btn-bg: #0d6efd00;
+  --bs-btn-border-color: #0d6efd00;
+  --bs-btn-active-color: red;
+  --bs-btn-active-bg: #0d6efd00;
+  --bs-btn-active-border-color: #0d6efd00;
+  --bs-btn-hover-bg: #0d6efd00;
+  --bs-btn-hover-border-color: red;
+}
+.btn {
+	color: #ff5733;
+}
